@@ -5,6 +5,7 @@ Static files only: `npm run build` writes everything to `web/out/`. No server, n
 Same Supabase project and public key (`lib/config.ts` = `js/config.js`), same IndexedDB (`receiptly_db`),
 same auth storage key (`receiptly-auth`), same billing Worker endpoints and rules.
 
+
 ## Commands
 
     npm ci
