@@ -265,8 +265,7 @@ export function Records() {
         {stat("Outstanding", moneyMix(kpi.outstanding, kpiSrc), kpi.outstanding > 0 ? "text-warn" : undefined)}
       </div>
       {mixed ? <p className="text-sm text-muted">* Totals mix currencies and are shown as a simple sum of amounts.</p> : null}
-      {signedIn ? <p className="rounded-xl bg-white px-3 py-2 text-sm text-muted ring-1 ring-line">These receipts belong to your signed-in account. Other businesses cannot see them.</p> : null}
-
+      
       <div className="space-y-3">
         <div className="relative">
           <label htmlFor="search" className="sr-only">Search receipts</label>
