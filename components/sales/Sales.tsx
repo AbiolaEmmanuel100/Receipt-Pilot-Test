@@ -156,7 +156,7 @@ export function Sales() {
           <Button id="salesPdf" onClick={downloadPdf} className="w-full sm:w-auto" data-html2canvas-ignore><IconFile className="size-5" />Download PDF report</Button>
 
           <Fold title="Product Sales" open>
-            <p className="text-sm text-muted">Allocated sales and payments by product. This is not profit or inventory.</p>
+            <p className="text-sm text-muted">Allocated sales and payments by product.</p>
             <div className="mt-3 grid gap-3 sm:grid-cols-2">
               <Field label="Search product" id="salesProduct"><Input type="search" id="salesProduct" placeholder="Iron, Rice, Blender" value={product} onChange={(e) => setProduct(e.target.value)} /></Field>
               <Field label="Payment status" id="salesPayStatus">
