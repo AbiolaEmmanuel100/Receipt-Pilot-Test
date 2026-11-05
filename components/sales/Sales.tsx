@@ -96,7 +96,7 @@ export function Sales() {
     <div className="space-y-5">
       <div>
         <h1 className="text-[1.625rem] font-bold tracking-tight md:text-[1.875rem]">Sales records</h1>
-        <p className="mt-1 max-w-2xl text-[15px] text-muted">These figures are calculated from your saved receipts. This is a sales report, not a profit or stock report.</p>
+        <p className="mt-1 max-w-2xl text-[15px] text-muted">These Sales figures are calculated from your saved receipts. </p>
       </div>
 
       {none ? (
